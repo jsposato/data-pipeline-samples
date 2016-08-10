@@ -105,7 +105,7 @@
       "connectionString": "jdbc:postgresql://#{myRedshiftEndpoint}:5439/dev",
       "type": "RedshiftDatabase",
       "username": "#{myRedshiftUsername}",
-      "*password": "#{*myRedshiftPassword}"
+      "*password": "#{myRedshiftPassword}"
     },
     {
       "myComment": "This object provides the configuration for the EMR cluster.",
